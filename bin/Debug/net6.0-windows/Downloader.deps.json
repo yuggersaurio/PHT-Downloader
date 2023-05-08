@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Downloader/1.0.0": {
+        "dependencies": {
+          "AltoHttp": "1.5.2",
+          "Newtonsoft.Json": "13.0.2",
+          "RestSharp": "106.6.10"
+        },
+        "runtime": {
+          "Downloader.dll": {}
+        }
+      },
+      "AltoHttp/1.5.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/net45/AltoHttp.dll": {
+            "assemblyVersion": "1.0.7945.3063",
+            "fileVersion": "1.0.7945.3063"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "RestSharp/106.6.10": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.10.0",
+            "fileVersion": "106.6.10.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Downloader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltoHttp/1.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7XtU++0CWh9gJvhZNx0TOU9KR/vGIhb8gMJU8UStew+JX6lnOyU70ebuLlQjS+TeByTluLfzal22BkbqtHv5LA==",
+      "path": "altohttp/1.5.2",
+      "hashPath": "altohttp.1.5.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "RestSharp/106.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "path": "restsharp/106.6.10",
+      "hashPath": "restsharp.106.6.10.nupkg.sha512"
+    }
+  }
+}
